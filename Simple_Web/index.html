@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hezekiah's Resume</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">R<span>e</span>sum<span>3</span></a>
+            
+            <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="Open Navigation">
+
+            <nav>
+                <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="">
+                <ul class="primary-nav">
+                    <li class="current"><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <section class="hero"> 
+        <div class="container">
+            <div class="left-col">
+                <h1>H<span>e</span>z<span>e</span>kiah Bat<span>e</span>s</h1>  
+                <p class="obj-statement">My objective is to experience an inclusive work environment that emphasizes on high support, high expecations. In addition, I aim to spread black excellence, in the tech industry, through my work in Amazon Web Services. </p>
+            </div>
+            <img src="images/Professional_headshot.jpg" class="hero-img" alt="Professional headshot">
+        </div>
+    </section>
+
+    <section class="Skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul class= skills>
+                <li>Excel</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>Leadership</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="body-exp-edu">
+        <div class="container">
+            <div class="Exp">
+                <h1>Experience</h1>
+                <h2 class="time-period"> AUGUST 25TH, 2018 – MAY 6TH, 2019 </h2>
+                <h2 class="title-company-name">PACKAGER, FOOD BANK</h2>
+                <ul>
+                    <li>Prepared food essential packages and merchandise for local need </li>
+                    <li>Collaborated in effectively managing teams, which improved the speed of packaging </li>
+                </ul>
+            </div>
+           
+            <div class="Edu">
+                <h1>Education</h1>
+                <div class="college">
+                    <h3 class="time-period">SEPTEMBER 2019 - JUNE 2021</h3>
+                    <h2 class="title-company-name">COMPUTER ENGINEERING (JUNIOR), UNIVERSITY OF CALIFORNIA, DAVIS </h2>
+                    <ul>
+                        <li>Current cumulative GPA: 3.0</li>
+                        <li>Trained in three programming languages: C++ (2 years), C(3 months), python(3 months)</li>
+                    </ul>
+                </div>
+                
+                <div class="high-school">
+                    <h3 class="time-period">AUGUST 2015 - JUNE 2019</h3>
+                    <h2 class="title-company-name">ARMIJO HIGH SCHOOL</h2>
+                    <ul>
+                        <li>Graduated with a 4.0 cumulative GPA</li>
+                        <li>Achieved the International Baccalaureate degree</li>
+                        <li>Participated in track and field (3 years), cross country (1 year)</li>
+                        <li>Participated in Leadership: planned, organized, and performed in school related events</li>
+                    </ul>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="activities">
+        <div class="container">
+            <h2>Activities</h2>
+            <p>"I am a trainee at the Year Up Bay Area site actively working on my professional brand and improving my technical programming skills. In this program I have learned Excel basics, improved on my comprehension of HTML, CSS, and JAVA, actively practice professional writing, and even gained leadership roles within our community. I will bring these into the position of AWS associate by demonstrating my programming skills, effectively communicating with my team, and take on roles outside of my comfort zone. With these in mind, I am always ready to learn more and new things professionally, academically, or otherwise. </p>
+        </div>
+    </section>
+<hr>
+    <footer class="contact">
+        <div class="container">
+            <ul class="sig-line">
+                <li>Email: hezekiahbates5@gmail.com </li>
+                <li>Moblie: (510) - 833 - 1238</li>
+                <li>Pronouns: He/Him/His</li>
+                <li>title: Year Up Bay Area Trainee</li>
+                <li>Address: 88 Sutter St, San Francisco CA, 91404</li>
+                <li>Quote: “We need to let go of the future we planned, to go to the future we’re destined to be.” </li>
+
+            </ul>
+        </div>
+    </footer>
+
+<script>
+
+    const mobileBtn = document.getElementById('mobile-cta')
+        nav = document.querySelector('nav');
+        mobileBtnExit = document.getElementById('mobile-exit')
+    
+    mobileBtn.addEventListener('click', () => {
+        nav.classList.add('menu-btn');
+    })
+    mobileBtnExit.addEventListener('click', () => {
+        nav.classList.remove('menu-btn');
+    })
+
+</script>
+
+</body>
+</html>
